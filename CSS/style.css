@@ -385,8 +385,23 @@ span {
 
 .footer-content p {
     font-size: 1.6rem;
-    color: var(--text-color);
     margin: 1rem 0;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer-content a:hover {
+    color: var(--main-color);
+}
+
+.footer-text {
+    border-top: .2rem dashed var(--text-color);
+    padding-top: 2rem;
+    left: 0;
+    right: 0;
 }
 
 .footer-text p {
