@@ -246,6 +246,10 @@ span {
     gap: 2rem;
 }
 
+.certificate .b {
+    display: block;
+}
+
 .certificate .card {
     padding: 2rem 1rem;
     max-width: 40rem;
